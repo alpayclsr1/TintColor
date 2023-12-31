@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="TintColor.MainPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:TintColor"
+    xmlns:mct="http://schemas.microsoft.com/dotnet/2022/maui/toolkit">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="30,0" Spacing="25">
+
+
+            <local:MyImage
+                HeightRequest="60"
+                Source="edit"
+                TintColor="Red" />
+
+
+
+            <local:MyImage
+                HeightRequest="60"
+                Source="edit"
+                TintColor="Blue" />
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
